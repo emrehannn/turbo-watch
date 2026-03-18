@@ -1,6 +1,6 @@
 # Turbo-Watch
 
-**Turbo-Watch** is a lightweight Chromium extension that allows users to easily play videos at speeds ranging from **0.1x** to **10x** in any HTML5 video in the internet. Take full control of your video playback speed with just a few clicks! Works in almost any website from Coursera to YouTube, so you are not limited by 0.25x to 2x options.
+**Turbo-Watch** is a lightweight Chromium extension that allows users to easily play videos at speeds ranging from **0.1x** to **10x** in any HTML5 video in the internet. Youtube requires premium to play above 2x speed, but with this extension you can take full control of your video playback speed back. Works in almost any website from Coursera to YouTube, so you are not limited by 0.25x to 2x options.
 
 ## Features
 
@@ -8,12 +8,6 @@
 - Simple and intuitive interface
 - Works on most HTML5 videos in your browser
 
-## How to Use
-
-1. Install the extension from the Chrome Web Store.
-2. Click the Turbo-Watch icon in the browser toolbar.
-3. Use the slider or input box to set your desired playback speed.
-4. Watch your videos at your chosen speed instantly!
 
 ## Installation
 
