@@ -26,7 +26,7 @@ Turbo Watch is a browser extension for controlling HTML5 video playback speed an
 2. Open `chrome://extensions`.
 3. Enable **Developer mode**.
 4. Click **Load unpacked** and select:
-   - `/home/runner/work/turbo-watch/turbo-watch/dist/chromium`
+   - `./dist/chromium`
 
 ### Firefox
 
@@ -34,7 +34,7 @@ Turbo Watch is a browser extension for controlling HTML5 video playback speed an
 2. Open `about:debugging#/runtime/this-firefox`.
 3. Click **Load Temporary Add-on**.
 4. Select:
-   - `/home/runner/work/turbo-watch/turbo-watch/dist/firefox/manifest.json`
+   - `./dist/firefox/manifest.json`
 
 ## Build, lint, test
 
