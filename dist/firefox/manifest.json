@@ -9,7 +9,8 @@
   },
   "permissions": [
     "storage",
-    "tabs"
+    "tabs",
+    "<all_urls>"
   ],
   "content_scripts": [
     {
@@ -22,8 +23,8 @@
       "run_at": "document_idle"
     }
   ],
-  "manifest_version": 3,
-  "action": {
+  "manifest_version": 2,
+  "browser_action": {
     "default_popup": "popup.html",
     "default_icon": {
       "16": "icon.png",
@@ -32,6 +33,17 @@
     }
   },
   "background": {
-    "service_worker": "background.js"
+    "scripts": [
+      "api.js",
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "turbo-watch@emrehan.dev",
+      "strict_min_version": "115.0"
+    }
   }
 }
