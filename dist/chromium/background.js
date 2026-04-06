@@ -1,4 +1,6 @@
-importScripts("api.js");
+if (typeof globalThis.TurboWatchApi === "undefined" && typeof importScripts === "function") {
+  importScripts("api.js");
+}
 
 const APP_SOURCE = "turbo-watch";
 const DEFAULTS = {
