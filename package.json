@@ -1,0 +1,13 @@
+{
+  "name": "turbo-watch",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Cross-browser extension for playback speed and volume boost control.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "lint": "node scripts/lint.mjs",
+    "test": "node scripts/test.mjs",
+    "format": "node scripts/lint.mjs",
+    "verify": "npm run lint && npm run build && npm run test"
+  }
+}
